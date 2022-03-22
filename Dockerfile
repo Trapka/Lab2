@@ -2,9 +2,9 @@ FROM debian:11
 
 MAINTAINER Литовкин Сергей 738-1
 
-COPY ./test1.s .
+COPY ./zadan.s .
 COPY ./zadanie.cpp .
-COPY ./test1 .
+COPY ./zadan .
 COPY ./a.out .
 
 RUN apt-get update -y

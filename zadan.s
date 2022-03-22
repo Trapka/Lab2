@@ -54,7 +54,7 @@ main:
         movl -4(%esp),%edx #  возвращаем  
         movl -8(%esp),%eax #  возврат 
         
-		orl $10,%eax #  добавление 1 
+		orl $8,%eax #  добавление 1 
         addl %eax,%edx #  сумма 
         pushl %edx  #  сохранность 
         

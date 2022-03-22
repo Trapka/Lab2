@@ -16,7 +16,7 @@ int main()
             break;   
         }
         std::cout<<data[i+1]<<"-> \t";;
-        data[i+1] = (data[i+1] | 10);
+        data[i+1] = (data[i+1] | 8);
         std::cout << data[i+1] <<" - odd number "<< std::endl;
         sum += data[i]+data[i+1];
         
